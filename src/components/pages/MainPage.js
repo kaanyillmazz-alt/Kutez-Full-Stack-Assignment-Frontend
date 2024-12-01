@@ -39,7 +39,7 @@ export default function MainPage(props) {
 
     useEffect(() => {
         axios
-            .get("http://localhost:8080/api/product/v1/products")
+            .get("https://full-stack-assignment-backend.onrender.com/api/product/v1/products")
             .then((response) => {
                 setData(response.data);
             })
