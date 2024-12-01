@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.font-face-ab {
+  font-family: "AvenirBook";
+}
+
+.font-face-mr {
+  font-family: "MontserratRegular";
+}
+
+.font-face-mm {
+  font-family: "MontserratMedium";
+}
