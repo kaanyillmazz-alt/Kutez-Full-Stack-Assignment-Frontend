@@ -86,7 +86,7 @@ export default function MainPage(props) {
                         </Grid2>
                     </div>
                 ) : (
-                    <p>Loading...</p>
+                    <p>Loading... (please wait 60 seconds because free tier backend on render falls asleep(not because of me))</p>
                 )}
 
 
